@@ -14,11 +14,9 @@
 - Radial Basis Function(Gaussian)
 - Sigmoid
 
-核函數定義如下，對於所有的樣本，一個函數可以滿足
-$$
-\kappa(x_i, x_j) = <\phi(x_i), \phi(x_j)>
-$$
-則$\kappa(x_i, x_j)$就是一個kernel函數，其中$\kappa$為核函數、$\phi$為映射函數，$x_i, x_j$為任意兩個樣本點
+核函數定義如下，對於所有的樣本，一個函數可以滿足 
+$$\kappa(x_i, x_j) = <\phi(x_i), \phi(x_j)>$$
+則 $\kappa(x_i, x_j)$就是一個kernel函數，其中 $\kappa$為核函數、 $\phi$為映射函數， $x_i, x_j$為任意兩個樣本點
 
 
 ## 優缺點
