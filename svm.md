@@ -18,7 +18,7 @@
 $$\kappa(x_i, x_j) = <\phi(x_i), \phi(x_j)>$$
 則 $\kappa(x_i, x_j)$就是一個kernel函數，其中 $\kappa$為核函數、 $\phi$為映射函數， $x_i, x_j$為任意兩個樣本點
 
-# SVM的超參數
+## SVM的超參數
 - RBF
   - C: 限制模型的複雜度，防止過度擬合
   - gamma: 數值越大越能做複雜的分類邊界
